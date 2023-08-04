@@ -3,6 +3,14 @@
 use App\Http\Controllers\EmployeeController;
 use Illuminate\Support\Facades\Route;
 
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::get('/', [EmployeeController::class, 'index']);
 Route::post('/store', [EmployeeController::class, 'store'])->name('store');
 Route::get('/fetchall', [EmployeeController::class, 'fetchAll'])->name('fetchAll');

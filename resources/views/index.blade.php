@@ -43,10 +43,10 @@
             <label for="phone">Telefone</label>
             <input type="tel" name="phone" class="form-control" placeholder="Insira seu número de telefone" required>
           </div>
-          <div class="my-2">
-            <label for="post">Post</label>
-            <input type="text" name="post" class="form-control" placeholder="Insira alguma observação" required>
-          </div>
+            <div class="my-2">
+              <label for="post">Post</label>
+              <input type="text" name="post" class="form-control" placeholder="Insira alguma obsercação" required>
+            </div>
           <div class="my-2">
             <label for="avatar">Selecione um avatar</label>
             <input type="file" name="avatar" class="form-control" required>
